@@ -33,7 +33,7 @@ fetchGifsticker(url1)
 // Task 5: Running it back
 // Find the endpoint that returns a random sticker
 // Build the request URL for a coding sticker
-let stickBeg="https://api.giphy.com/v1/stickers/random`"
+let stickBeg="https://api.giphy.com/v1/stickers/random"
 
 // Define and call the function that prints just the sticker URL
 let url2=stickBeg+"?q=random&limit=1&api_key="+APIKEY
